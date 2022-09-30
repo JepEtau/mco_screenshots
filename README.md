@@ -39,11 +39,11 @@
 
     * Avant la modification de l'histogramme (avant amélioration de la netteté, corrections RGB de l'ensemble et rognage...)
     ![stitching_stabilize_0](stitching_stabilize_0.png)
-    * Après la modification de l'histogramme(avant amélioration de la netteté, corrections RGB de l'ensemble et rognage...)
+    * Après la modification de l'histogramme(avant amélioration de la netteté, corrections RGB de l'ensemble et rognage...). Agrandissez l'image autour du chapeau bleu pour voir la différence entre les 2 images.
     ![stitching_stabilize_1](stitching_stabilize_1.png)
 <p>&nbsp;</p>
 
-__Remarque__: Alors pourquoi ne pas utiliser l'édition utilisée en arrière plan? Parce que l'édition utilise en premier plan est largement meilleure (netteté, bruit plus faible) que celle d'arrière plan qui sera suffisante car en périphérie de la vision.
+__Remarque__: Alors pourquoi ne pas utiliser l'édition utilisée en arrière plan? Parce que l'édition utilisée en premier plan est largement meilleure (netteté, bruit plus faible) que celle d'arrière plan. Celle d'arrière plan est suffisante car en périphérie de la vision.
 <p>&nbsp;</p>
 
 ## 3. Fichiers de configurations
