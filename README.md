@@ -27,19 +27,22 @@
 - Permet de définir les images à remplacer (par une suivante/précédente)
 - Utilisé pour définir le rognage des images (crop) à la fin
 - Permet de visualiser les épisodes/parties par plan (trame-par-trame ou lecture)
-![video_editor](video_editor.png)
+- (2022-10-29) ajout de l'édition des courbes RGB
+![video_editor](video_editor_v2.png)
+
 <p>&nbsp;</p>
 
-### 2.4 Editeur pour la stabilisation et la superposition d'images
+### 2.4 Editeur pour la stabilisation et la superposition d'images (en cours de développement)
 - Certains changements de plans sur l'édition utilisée sont désagréables et d'autres plans sont trop rognés. Même si la superposition d'images de différentes éditions n'est pas parfaite, elle permet d'améliorer le ressenti. Cette opération pourra être optionnelle pour la génération finale selon le ressenti de chacun
 - Cet outil permet de calculer les décalages d'images pour la stabilisation d'un plan (partie de plan)
 - La stabilisation est dépendante de la superposition des images de différentes éditions. Sans cette superposition, il faudrait rogner l'image en hauteur de l'image centrale, ce qui serait très dommageable étant donné que l'édition utilisée est déjà trop "rognée" par rapport aux autres.
 - La superposition nécessite de modifier (stretching) l'image d'arrière plan car le ratio/orientation est différent entre les éditions (scan de la pellicule sont différents!)
 - Les couleurs sont différentes entre les éditions, il faut pouvoir modifier l'histogramme de l'arrière plan pour que la superposition ne se voit pas (ou très légèrement que ça ne perturbe pas l'oeil)
-
-    * Avant la modification de l'histogramme (avant amélioration de la netteté, corrections RGB de l'ensemble et rognage...)
+    * Image originale débruitée uniquement
+    ![video_editor](video_editor.png)
+    * Avant la modification de l'histogramme (débruitée uniquement: avant amélioration de la netteté, corrections RGB de l'ensemble et rognage...)
     ![stitching_stabilize_0](stitching_stabilize_0.png)
-    * Après la modification de l'histogramme(avant amélioration de la netteté, corrections RGB de l'ensemble et rognage...). Agrandissez l'image autour du chapeau bleu pour voir la différence entre les 2 images.
+    * Après la modification de l'histogramme (débruitée uniquement: avant amélioration de la netteté, corrections RGB de l'ensemble et rognage...). La différence se remarquer autour du chapeau bleu pour voir la différence entre les 2 images.
     ![stitching_stabilize_1](stitching_stabilize_1.png)
 <p>&nbsp;</p>
 
